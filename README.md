@@ -1,2 +1,2 @@
 # quiltbagtechnyc_website
-wordpress website at quiltbagtech.nyc
+wordpress website at http://quiltbagtech.nyc
