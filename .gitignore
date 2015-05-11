@@ -1,3 +1,4 @@
 wp-config.php
 wp-config-sample.php
 .htaccess
+wp-content/themes/quiltbag/node_modules
