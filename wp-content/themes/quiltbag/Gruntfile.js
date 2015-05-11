@@ -12,14 +12,18 @@ module.exports = function(grunt) {
         options: {
           style: 'expanded'
         },
-        files: {
-          'library/css/style.css': 'library/scss/style.scss'
-        }
+        files: [{
+          expand: true,
+          cwd: 'library/scss',
+          src: '*.scss',
+          dest: 'library/css/',
+          ext: '.css'
+        }]
       }
     },
     watch: {
       css: {
-        files: ['library/scss/style.scss'],
+        files: ['library/scss/{,*/}*.scss'],
         tasks: ['sass'],
         options: {
           livereload: true
