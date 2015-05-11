@@ -6,3 +6,9 @@
 @media print {
   @import "print";
 }
+
+
+// testing autoprefixer
+body {
+  transition: color 3s ease;
+}

@@ -24,10 +24,21 @@ module.exports = function(grunt) {
     watch: {
       css: {
         files: ['library/scss/{,*/}*.scss'],
-        tasks: ['sass'],
+        tasks: ['sass', 'postcss'],
         options: {
           livereload: true
         }
+      }
+    },
+    postcss: {
+      options: {
+        map: true,
+        processors: [
+          require('autoprefixer-core')({browsers: 'last 5 versions'}).postcss
+        ]
+      },
+      dist: {
+        src: 'library/css/*.css'
       }
     }
   });
