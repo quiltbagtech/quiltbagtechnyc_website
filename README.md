@@ -11,14 +11,15 @@ The project is wired up with Grunt for compiling Sass, livereloading changes to 
 Here's how to use Grunt:
 
 First step: have npm installed! `npm -v` to check and see if you do.
-If you don't, [download node here](https://nodejs.org/); npm will cmoe with it.
+If you don't, [download node here](https://nodejs.org/); npm will come with it.
 
 Next: install Grunt!
 `npm install -g grunt-cli`
 
 For the rest of the steps, make sure that your shell is in the quiltbag _theme_ folder -- `wp-content/themes/quiltbag` -- , as that is where the Gruntfile.js and package.json files live.
 
-You'll want to install the project dependencies (aka the node packages which are listed in the `package.json` file, by running
+You'll want to install the project dependencies (aka the node packages which are listed in the `package.json` file) by running
+
 `npm install` 
 
 Finally, run everything with the simple command `grunt`. 
