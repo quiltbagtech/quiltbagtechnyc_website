@@ -18,6 +18,9 @@ Next: install Grunt!
 
 For the rest of the steps, make sure that your shell is in the quiltbag _theme_ folder -- `wp-content/themes/quiltbag` -- , as that is where the Gruntfile.js and package.json files live.
 
-You'll want to install the project dependencies (aka the node packages which are listed in the `package.json` file, and, finally, run everything with the simple command `grunt`. 
+You'll want to install the project dependencies (aka the node packages which are listed in the `package.json` file, by running
+`npm install` 
+
+Finally, run everything with the simple command `grunt`. 
 
 Full instructions here: http://gruntjs.com/getting-started#working-with-an-existing-grunt-project
