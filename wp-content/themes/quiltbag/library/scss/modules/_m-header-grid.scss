@@ -1,0 +1,57 @@
+$m: '.m-header-grid';
+
+#{$m} {
+  height: 45vh;
+}
+
+#{$m}__frame {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 100px;
+}
+
+#{$m}__cell {
+    width: 5%;
+  height: 10.1%;
+  float: left;
+  position: relative;
+  @for $i from 1 through 20 {
+    &:nth-child(20n - #{$i - 1}) {
+      background: lighten(rgba(150 + 7 * $i, 150 - 5 * $i, 6 * $i, 1), 10%);
+      animation: hor 3s ease infinite alternate;
+      animation-delay: 3s - (.15s * $i);
+    }
+  }
+  @for $i from 1 through 20 {
+    &:nth-child(19n - #{$i + 10}) {
+      &:after {
+        content: '';
+        background: lighten(rgba(150 + 5 * $i, 10, 100, 1), 5%);
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        animation: diag 1.5s ease infinite alternate;
+        animation-delay: 3s - (.15s * $i);
+    }
+    }
+  }
+}
+
+@keyframes hor {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: .8;
+  }
+}
+
+@keyframes diag {
+  from { opacity: .0; }
+  to { opacity: .5; }
+}

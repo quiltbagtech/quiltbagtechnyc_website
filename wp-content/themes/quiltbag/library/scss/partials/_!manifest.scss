@@ -1,0 +1,15 @@
+// manifest file
+
+@import 'normalize';
+@import 'base';
+
+@media print {
+  @import "print";
+}
+
+
+// testing autoprefixer
+body {
+  transition: color 3s ease;
+  test: test;
+}

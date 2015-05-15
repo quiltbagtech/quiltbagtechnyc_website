@@ -1,0 +1,5 @@
+$m: '.m-title';
+
+#{$m} {
+  @include span-columns(4);
+}

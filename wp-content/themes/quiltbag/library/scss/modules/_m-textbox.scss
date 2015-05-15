@@ -1,0 +1,9 @@
+$m: '.m-textbox';
+
+#{$m} {
+  @include span-columns(6);
+}
+
+#{$m} p {
+  font-size: 1.5rem;
+}

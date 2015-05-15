@@ -1,0 +1,31 @@
+$m: '.m-line';
+
+#{$m} {
+  width: 300px;
+  height: 3px;
+  background: #333;
+  margin: 5rem;
+  animation: in 3s ease;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes in {
+  0% {
+    background: white;
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+    background: white;
+  }
+}
+
+@keyframes glow {
+  0% {
+
+  }
+  100% {
+
+  }
+}

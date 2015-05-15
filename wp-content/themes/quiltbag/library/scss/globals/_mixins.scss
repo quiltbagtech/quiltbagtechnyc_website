@@ -1,0 +1,4 @@
+@mixin cute-border ($width: 3px, $padding: 25px) {
+  border-bottom: $width;
+  padding-bottom: $padding;
+}
