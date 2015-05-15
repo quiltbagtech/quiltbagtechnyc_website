@@ -1,0 +1,21 @@
+{
+  "name": "quiltbag",
+  "version": "0.0.0",
+  "homepage": "https://github.com/quiltbagtech/quiltbagtechnyc_website",
+  "authors": [
+    "quiltbag"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": true,
+  "devDependencies": {
+    "bourbon": "~4.2.3",
+    "neat": "~1.7.2"
+  }
+}

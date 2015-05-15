@@ -1,0 +1,27 @@
+$sans: 'omnes-pro';
+
+
+
+body {
+  font-family: $sans;
+}
+
+h1, a {
+  font-size: 34px;
+  font-weight: 500;
+  color: $gray;
+  text-transform: uppercase;
+}
+
+h1 {
+
+}
+
+p {
+  color: $gray;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
