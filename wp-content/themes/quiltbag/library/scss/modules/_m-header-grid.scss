@@ -1,6 +1,10 @@
 $m: '.m-header-grid';
 
 #{$m} {
+  height: 45vh;
+}
+
+#{$m}__frame {
   width: 100%;
   height: 100%;
   overflow: hidden;

@@ -5,6 +5,14 @@ Author:
 Stylesheet: Main Stylesheet
 
 ******************************************************************/
+html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
 /* normalize.css 2012-07-07T09:50 UTC - http://github.com/necolas/normalize.css */
 /* ==========================================================================
    HTML5 display definitions
@@ -482,12 +490,6 @@ body {
   margin: 0;
 }
 
-header {
-  width: 100%;
-  height: 45vh;
-  zoom: 1;
-}
-
 a {
   text-decoration: none;
 }
@@ -595,23 +597,24 @@ body {
   font-family: "omnes-pro";
 }
 
-h1, a {
-  font-size: 34px;
+h1, h1 a {
+  font-size: 3.375rem;
   font-weight: 500;
-  color: #cccccc;
+  color: #dddddd;
   text-transform: uppercase;
 }
 
 p {
-  color: #cccccc;
-}
-
-.container {
-  width: 80%;
-  margin: 0 auto;
+  color: #dddddd;
+  font-weight: 300;
+  font-size: 1.5rem;
 }
 
 .m-header-grid {
+  height: 45vh;
+}
+
+.m-header-grid__frame {
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -1096,6 +1099,73 @@ p {
   }
   to {
     opacity: .5;
+  }
+}
+.m-page-wrap {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.m-textbox {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+}
+.m-textbox:last-child {
+  margin-right: 0;
+}
+
+.m-textbox p {
+  font-size: 1.5rem;
+}
+
+.m-title {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+}
+.m-title:last-child {
+  margin-right: 0;
+}
+
+.m-line {
+  width: 300px;
+  height: 3px;
+  background: #333;
+  margin: 5rem;
+  -webkit-animation: in 3s ease;
+          animation: in 3s ease;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes in {
+  0% {
+    background: white;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+    background: white;
+  }
+}
+
+@keyframes in {
+  0% {
+    background: white;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+    background: white;
   }
 }
 
