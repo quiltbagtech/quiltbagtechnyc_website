@@ -3,4 +3,9 @@ $l: '.l-rail';
 #{$l} {
   width: 40%;
   float: left;
+
+  @media (max-width: $mq-singlecol) {
+    width: 100%;
+  }
 }
+

@@ -4,4 +4,9 @@ $l: '.l-main';
   width: 60%;
   float: left;
   margin-top: -1px;
+
+  @media (max-width: $mq-singlecol) {
+    width: 100%;
+  }
 }
+
