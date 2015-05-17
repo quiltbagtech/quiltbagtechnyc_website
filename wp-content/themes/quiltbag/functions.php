@@ -244,4 +244,14 @@ function bones_fonts() {
 
 add_action('wp_enqueue_scripts', 'bones_fonts');
 
+// **** edits by Robyn O. for QUILTBAG++ theme **** //
+
+/************* NAV MENUS *********************/
+register_nav_menus( array(
+  'main_nav' => 'Top level navigation menu',
+  'secondary_nav' => 'Some other menu somewhere else'
+) );
+
+
+
 /* DON'T DELETE THIS CLOSING TAG */ ?>
