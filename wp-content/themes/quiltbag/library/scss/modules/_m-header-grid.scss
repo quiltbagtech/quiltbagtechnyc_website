@@ -1,7 +1,17 @@
 $m: '.m-header-grid';
 
 #{$m} {
-  height: 45vh;
+  height: 400px;
+  width: 100%;
+  max-width: setting(max-width);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: $dark-gray;
+  @media (min-width: setting(max-width)) {
+    left: calc((100% - 70rem) / 2);
+  }
 }
 
 #{$m}__frame {

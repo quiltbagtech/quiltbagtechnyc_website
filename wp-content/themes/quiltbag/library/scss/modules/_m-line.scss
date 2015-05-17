@@ -1,14 +1,24 @@
 $m: '.m-line';
 
+
+
 #{$m} {
+  $colors: rgb(207, 123, 79),
+         rgb(191, 83,  96),
+         rgb(179, 76,  90),
+         rgb(202, 68,  106),
+         rgb(243, 111, 123);
   width: 300px;
   height: 3px;
-  background: #333;
+  background: $dark-gray;
   margin: 5rem;
-  animation: in 3s ease;
+  animation: lineglow 3s ease;
   animation-delay: 1s;
   animation-fill-mode: forwards;
+  @include keyframer(lineglow, background-color, $colors);
 }
+
+
 
 @keyframes in {
   0% {

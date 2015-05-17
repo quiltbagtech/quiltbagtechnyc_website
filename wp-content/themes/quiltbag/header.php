@@ -44,8 +44,12 @@
 	</head>
 
 	<body <?php body_class(); ?> itemscope itemtype="http://schema.org/WebPage">
-
     <div class="m-header-grid">
+    <header class="m-title">
+      <h1>
+        <a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?>++</a>
+      </h1>
+    </header>
       <div class="m-header-grid__frame">
         <div class="m-header-grid__cell"></div>
         <div class="m-header-grid__cell"></div>
@@ -250,14 +254,8 @@
       </div>
     </div>
 
-    <div class="m-page-wrap">
 
-    <header class="m-title">
-      <h1>
-        <a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a>
-      </h1>
-
-      <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+     <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
         <?php wp_nav_menu(array(
                    'container' => false,                           // remove nav container
                    'container_class' => 'menu cf',                 // class of container (should you choose to use it)
@@ -272,7 +270,5 @@
                    'fallback_cb' => ''                             // fallback function (if there is one)
         )); ?>
       </nav>
-    </header>
+    <div class="m-page-wrap">
 
-    <div class="m-line">
-    </div>

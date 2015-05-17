@@ -1,6 +1,11 @@
 $m: '.m-page-wrap';
 
 #{$m} {
-  max-width: 80%;
-  margin: 0 auto;
+  width: 100%;
+  max-width: setting(max-width);
+  margin: 400px auto 0;
+  background: $dark-gray;
+  &:after {
+    zoom: 1;
+  }
 }

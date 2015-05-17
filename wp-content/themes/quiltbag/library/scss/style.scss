@@ -9,4 +9,13 @@ Stylesheet: Main Stylesheet
 @import '../../bower_components/neat/app/assets/stylesheets/neat';
 @import 'partials/!manifest';
 @import 'globals/!manifest';
+@import 'layouts/!manifest';
 @import 'modules/!manifest';
+
+#wpadminbar {
+  display: none;
+}
+
+html.js {
+  margin-top: 0 !important;
+}

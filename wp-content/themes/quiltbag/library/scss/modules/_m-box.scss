@@ -1,0 +1,93 @@
+$m: '.m-box';
+
+#{$m} {
+  display: block;
+  //background: tomato;
+  width: 100%;
+  padding: 2rem;
+  p {
+    font-size: $xsmall;
+    line-height: 1.5;
+    font-weight: 400;
+  }
+}
+
+#{$m}--nav {
+  @include m-box-colors(nth($colors, 5), $light-gray);
+  ul {
+    margin-left: 2rem;
+  }
+  li {
+    font-size: $small;
+    text-transform: uppercase;
+    margin: 2rem;
+    &:last-child {
+      margin-bottom: 6rem;
+    }
+  }
+  a {
+     border-bottom: 5px solid $light-gray;
+  }
+}
+
+#{$m}--titled {
+  @include m-box-colors(nth($colors, 4), $dark-gray);
+  p {
+    font-weight: 600;
+  }
+  h2 {
+    color: $light-gray;
+  }
+}
+#{$m}--half {
+  @include m-box-colors(nth($colors, 5), $dark-gray);
+  width: 50%;
+  float: left;
+}
+#{$m}--half + #{$m}--half {
+  @include m-box-colors(nth($colors, 3), $dark-gray);
+}
+
+#{$m}--social {
+  height: 2rem;
+  position: relative;
+  text-align: right;
+  svg {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: absolute;
+    top: 2.25rem;
+    right: 1.5rem;
+    fill: $light-gray;
+  }
+  a {
+    padding-right: 2rem;
+    line-height: 2rem;
+  }
+  a:hover path {
+    $cols: ();
+    @for $i from 1 through length($colors) {
+      $cols: append($cols, nth($colors, $i));
+    }
+    @include keyframer(shiny-fill, fill, $cols);
+    animation: shiny-fill .7s ease infinite;
+  }
+}
+
+.home {
+
+  .l-main #{$m}:nth-child(1) {
+    @include m-box-colors($light-gray, $dark-gray);
+  }
+
+  .l-rail #{$m}:nth-child(1) {
+    @include m-box-colors(nth($colors, 2), $dark-gray);
+    text-align: center;
+    p {
+      font-size: $small;
+    }
+  }
+
+}
+
+// sizes
