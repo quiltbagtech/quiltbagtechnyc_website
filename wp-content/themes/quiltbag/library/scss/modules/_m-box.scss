@@ -10,6 +10,9 @@ $m: '.m-box';
     line-height: 1.5;
     font-weight: 400;
   }
+  @media (max-width: $mq-singlecol) {
+    float: left;
+  }
 }
 
 #{$m}--nav {
@@ -27,6 +30,28 @@ $m: '.m-box';
   }
   a {
      border-bottom: 5px solid $light-gray;
+     &:hover {
+      opacity: .5;
+     }
+  }
+  @media (max-width: 970px) {
+    ul {
+      margin-left: 0;
+    }
+  }
+  @media (max-width: $mq-singlecol) {
+    position: absolute;
+    top: -5rem;
+    height: 5rem;
+    padding: 0 0 0 2rem;
+    li {
+      display: inline-block;
+      margin: .5rem;
+      font-size: $xsmall;
+    }
+    a {
+      border-bottom: none;
+    }
   }
 }
 
@@ -49,7 +74,7 @@ $m: '.m-box';
 }
 
 #{$m}--social {
-  height: 2rem;
+  height: 5rem;
   position: relative;
   text-align: right;
   svg {
@@ -71,6 +96,21 @@ $m: '.m-box';
     }
     @include keyframer(shiny-fill, fill, $cols);
     animation: shiny-fill .7s ease infinite;
+  }
+  @media (max-width: $mq-singlecol) {
+    width: 50%;
+    float: left;
+    & + #{$m}--social {
+      text-align: left;
+      a {
+        padding-left: 2rem;
+        padding-right: 0;
+      }
+      svg {
+        left: 1.5rem;
+        right: auto;
+      }
+    }
   }
 }
 
