@@ -1,0 +1,7 @@
+$settings: (
+  max-width: 70rem
+);
+
+@function setting($setting) {
+  @return map-get($settings, $setting);
+}

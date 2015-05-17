@@ -48,9 +48,19 @@
                   @quiltbagtech
                 </a>
               </div>
+              <div class="m-box m-box--titled">
+                <h2>About</h2>
+                <p>The acronym ‘QUILTBAG’ is like ‘LGBT’, but includes several words not listed there, like queer, intersex, and asexual. What about the ++? In some programming languages, using two plus signs is a shortcut for adding 1 to a number. We are using it here because even an acronym as robust as QUILTBAG will invariably leave out some identities, and we want to make clear that our terminology, like our inclusiveness, is not finite, but growing and changing. We are using ++ to signal our interest in making space for queer, trans, and ++ people in tech.</p>
+              </div>
+              <div class="m-box m-box--half">
+                The acronym ‘QUILTBAG’ is like ‘LGBT’, but includes several words not listed there, like queer, intersex, and asexual. What about the ++?
+              </div>
+              <div class="m-box m-box--half">
+                The acronym ‘QUILTBAG’ is like ‘LGBT’, but includes several words not listed there, like queer, intersex, and asexual. What about the ++?
+              </div>
            </section>
            <section class="l-rail">
-             <div class="m-box --xs">
+             <div class="m-box" --xs>
               <p>this group is based in <span class="emphasis">NYC</span></p>
              </div>
              <div class="m-box m-box--nav">

@@ -2,11 +2,8 @@ $m: '.m-page-wrap';
 
 #{$m} {
   width: 100%;
-  margin: 0 auto;
-  margin-top: 400px;
-  position: absolute;
-  top: 0;
-  left: 0;
+  max-width: setting(max-width);
+  margin: 400px auto 0;
   background: $dark-gray;
   &:after {
     zoom: 1;

@@ -521,10 +521,11 @@ body {
 }
 
 h1, h1 a {
-  font-size: 3.375rem;
+  font-size: 2.25rem;
   font-weight: 600;
   color: #E6E6E6;
   text-transform: uppercase;
+  opacity: .85;
 }
 
 a {
@@ -638,11 +639,18 @@ body {
 .m-header-grid {
   height: 400px;
   width: 100%;
+  max-width: 70rem;
   position: fixed;
   top: 0;
   left: 0;
   z-index: -1;
-  background: #E6E6E6;
+  background: #333333;
+}
+@media (min-width: 70rem) {
+  .m-header-grid {
+    left: -webkit-calc((100% - 70rem) / 2);
+    left: calc((100% - 70rem) / 2);
+  }
 }
 
 .m-header-grid__frame {
@@ -1134,11 +1142,8 @@ body {
 }
 .m-page-wrap {
   width: 100%;
-  margin: 0 auto;
-  margin-top: 400px;
-  position: absolute;
-  top: 0;
-  left: 0;
+  max-width: 70rem;
+  margin: 400px auto 0;
   background: #333333;
 }
 .m-page-wrap:after {
@@ -1161,11 +1166,15 @@ body {
 
 .m-title {
   width: 100%;
-  position: fixed;
+  position: absolute;
   top: 20px;
+  z-index: 2;
 }
 .m-title h1 {
-  text-align: center;
+  margin-left: 2rem;
+  display: inline-block;
+  background: #333;
+  padding: 1rem;
 }
 
 .m-line {
@@ -1274,6 +1283,35 @@ body {
   border-bottom: 5px solid #E6E6E6;
 }
 
+.m-box--titled {
+  background: #ca446a;
+}
+.m-box--titled p {
+  color: #333333;
+}
+.m-box--titled p {
+  font-weight: 600;
+}
+.m-box--titled h2 {
+  color: #E6E6E6;
+}
+
+.m-box--half {
+  background: #f36f7b;
+  width: 50%;
+  float: left;
+}
+.m-box--half p {
+  color: #333333;
+}
+
+.m-box--half + .m-box--half {
+  background: #b34c5a;
+}
+.m-box--half + .m-box--half p {
+  color: #333333;
+}
+
 .m-box--social {
   height: 2rem;
   position: relative;
@@ -1379,6 +1417,10 @@ body {
 
 #wpadminbar {
   display: none;
+}
+
+html.js {
+  margin-top: 0 !important;
 }
 
 /*# sourceMappingURL=style.css.map */

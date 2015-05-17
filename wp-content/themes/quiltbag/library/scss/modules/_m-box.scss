@@ -30,6 +30,24 @@ $m: '.m-box';
   }
 }
 
+#{$m}--titled {
+  @include m-box-colors(nth($colors, 4), $dark-gray);
+  p {
+    font-weight: 600;
+  }
+  h2 {
+    color: $light-gray;
+  }
+}
+#{$m}--half {
+  @include m-box-colors(nth($colors, 5), $dark-gray);
+  width: 50%;
+  float: left;
+}
+#{$m}--half + #{$m}--half {
+  @include m-box-colors(nth($colors, 3), $dark-gray);
+}
+
 #{$m}--social {
   height: 2rem;
   position: relative;

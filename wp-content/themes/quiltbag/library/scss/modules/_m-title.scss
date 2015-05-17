@@ -2,9 +2,13 @@ $m: '.m-title';
 
 #{$m} {
   width: 100%;
-  position: fixed;
+  position: absolute;
   top: 20px;
+  z-index: 2;
   h1 {
-    text-align: center;
+    margin-left: 2rem;
+    display: inline-block;
+    background: #333;
+    padding: 1rem;
   }
 }
