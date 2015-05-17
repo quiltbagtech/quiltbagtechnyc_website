@@ -44,7 +44,6 @@
 	</head>
 
 	<body <?php body_class(); ?> itemscope itemtype="http://schema.org/WebPage">
-
     <div class="m-header-grid">
       <div class="m-header-grid__frame">
         <div class="m-header-grid__cell"></div>
@@ -250,11 +249,9 @@
       </div>
     </div>
 
-    <div class="m-page-wrap">
-
     <header class="m-title">
       <h1>
-        <a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a>
+        <a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?>++</a>
       </h1>
 
       <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
@@ -273,6 +270,5 @@
         )); ?>
       </nav>
     </header>
+    <div class="m-page-wrap">
 
-    <div class="m-line">
-    </div>

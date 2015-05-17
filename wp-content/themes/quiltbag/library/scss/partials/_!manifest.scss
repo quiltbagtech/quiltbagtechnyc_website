@@ -1,7 +1,9 @@
 // manifest file
 
+@import '../globals/!manifest';
 @import 'normalize';
 @import 'base';
+@import 'typography';
 
 @media print {
   @import "print";

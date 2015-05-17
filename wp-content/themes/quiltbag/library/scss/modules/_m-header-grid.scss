@@ -1,7 +1,13 @@
 $m: '.m-header-grid';
 
 #{$m} {
-  height: 45vh;
+  height: 400px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: $light-gray;
 }
 
 #{$m}__frame {

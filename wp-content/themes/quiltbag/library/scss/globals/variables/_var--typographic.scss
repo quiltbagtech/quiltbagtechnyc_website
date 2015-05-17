@@ -1,22 +1,7 @@
-$sans: 'omnes-pro';
+$italic: 'athelas';
+$sans: 'raleway';
 
 $large: 3.375rem;
 $medium: 2.25rem;
 $small: 1.5rem;
-
-body {
-  font-family: $sans;
-}
-
-h1, h1 a {
-  font-size: $large;
-  font-weight: 500;
-  color: $gray;
-  text-transform: uppercase;
-}
-
-p {
-  color: $gray;
-  font-weight: 300;
-  font-size: $small;
-}
+$xsmall: 1rem;

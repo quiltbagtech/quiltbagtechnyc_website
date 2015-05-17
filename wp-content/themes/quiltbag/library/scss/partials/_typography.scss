@@ -1,0 +1,25 @@
+body {
+  font-family: $sans;
+}
+
+h1, h1 a {
+  font-size: $large;
+  font-weight: 600;
+  color: $light-gray;
+  text-transform: uppercase;
+}
+
+a {
+  color: $light-gray;
+  font-weight: 600;
+}
+
+p {
+  color: $light-gray;
+  font-weight: 300;
+  font-size: $small;
+}
+
+.emphasis {
+  font-weight: 600;
+}

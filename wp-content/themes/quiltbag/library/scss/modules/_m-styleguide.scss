@@ -1,0 +1,11 @@
+$m: '.page-template-page-styleguide';
+
+#{$m} {
+
+  .m-textbox {
+    &:before {
+      content: 'm-textbox';
+    }
+  }
+
+}
