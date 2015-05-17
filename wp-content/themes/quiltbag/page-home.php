@@ -64,7 +64,7 @@
               <p>this group is based in <span class="emphasis">NYC</span></p>
              </div>
              <!--
-            <div class="m-box m-box--nav">
+            <div class="m-box m-box - - nav"> //fix dashes if you uncomment
               <ul>
                 <li><a href="#">Code of Conduct</a></li>
                 <li><a href="#">Other Link</a></li>
@@ -74,7 +74,7 @@
             -->
             <?php
             $menu_settings = array(
-              'theme_location'  => '',
+              'theme_location'  => 'main_nav',
               'menu'            => '',
               'container'       => 'div',
               'container_class' => 'm-box m-box--nav',
