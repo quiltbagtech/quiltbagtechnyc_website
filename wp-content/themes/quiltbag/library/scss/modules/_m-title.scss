@@ -8,7 +8,18 @@ $m: '.m-title';
   h1 {
     margin-left: 2rem;
     display: inline-block;
-    background: #333;
     padding: 1rem;
+  }
+  a {
+    position: relative;
+  }
+  a:before {
+    content: '++';
+    position: absolute;
+    top: -.5rem;
+    right: 0rem;
+    display: block;
+    color: lighten(nth($colors, 5), 5%);
+    z-index: 3;
   }
 }

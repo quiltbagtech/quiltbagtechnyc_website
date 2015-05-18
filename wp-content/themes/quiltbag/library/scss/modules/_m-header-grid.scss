@@ -12,6 +12,29 @@ $m: '.m-header-grid';
   @media (min-width: setting(max-width)) {
     left: calc((100% - 70rem) / 2);
   }
+  @media (max-width: $mq-singlecol) {
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: $dark-gray;
+      width: 100%;
+      height: 100%;
+      z-index: 5;
+      animation: canteloupe-stew 3s ease;
+      animation-fill-mode: forwards;
+      animation-delay: .25s;
+      @keyframes canteloupe-stew {
+        from {
+          opacity: 1;
+        }
+        to {
+          opacity: 0;
+        }
+      }
+    }
+  }
 }
 
 #{$m}__frame {
