@@ -9,7 +9,7 @@
             <div class="m-splitbar__segment">
             </div>
             <div class="m-splitbar__segment">
-              <p>queer and/or trans and/or ++ people in tech</p>
+              <p><?php echo get_bloginfo('description'); ?></p>
             </div>
           </div>
           <section class="l-main">
