@@ -79,7 +79,7 @@
               'container'       => 'div',
               'container_class' => 'm-box m-box--nav',
               'container_id'    => '',
-              'menu_class'      => 'menu',
+              'menu_class'      => 'm-box m-box--nav',
               'menu_id'         => '',
               'echo'            => true,
               'fallback_cb'     => 'wp_page_menu',
