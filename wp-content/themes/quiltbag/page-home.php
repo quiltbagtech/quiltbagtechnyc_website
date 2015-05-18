@@ -63,13 +63,37 @@
              <div class="m-box" --xs>
               <p>this group is based in <span class="emphasis">NYC</span></p>
              </div>
-             <div class="m-box m-box--nav">
+             <!--
+            <div class="m-box m-box - - nav"> //fix dashes if you uncomment
               <ul>
                 <li><a href="#">Code of Conduct</a></li>
                 <li><a href="#">Other Link</a></li>
                 <li><a href="#">Other Link</a></li>
               </ul>
-             </div>
+            </div>
+            -->
+            <?php
+            $menu_settings = array(
+              'theme_location'  => 'main_nav',
+              'menu'            => '',
+              'container'       => 'div',
+              'container_class' => 'm-box m-box--nav',
+              'container_id'    => '',
+              'menu_class'      => 'menu',
+              'menu_id'         => '',
+              'echo'            => true,
+              'fallback_cb'     => 'wp_page_menu',
+              'before'          => '',
+              'after'           => '',
+              'link_before'     => '',
+              'link_after'      => '',
+              'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+              'depth'           => 0,
+              'walker'          => ''
+            );
+
+            wp_nav_menu( $menu_settings );
+            ?>
            </section>
 
 
