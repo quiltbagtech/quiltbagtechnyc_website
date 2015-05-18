@@ -2,7 +2,6 @@ $m: '.m-box';
 
 #{$m} {
   display: block;
-  //background: tomato;
   width: 100%;
   padding: 2rem;
   p {
@@ -39,15 +38,36 @@ $m: '.m-box';
       margin-left: 0;
     }
   }
-  @media (max-width: $mq-singlecol) {
+  @media (max-width: 600px) {
     position: absolute;
     top: -5rem;
     height: 5rem;
+    float: left;
     padding: 0 0 0 2rem;
+    width: 100%;
+    padding-left: 0;
+
+    ul {
+      overflow-x: scroll;
+      white-space: nowrap;
+      margin: 0;
+      height: 100%;
+    }
+
     li {
-      display: inline-block;
-      margin: .5rem;
-      font-size: $xsmall;
+        display: inline-block;
+        margin: 0;
+        padding: 0 1rem;
+        line-height: 5rem;
+        font-size: 1rem;
+        &:last-child {
+          margin-bottom: 0;
+        }
+        @for $i from 1 through 5 {
+          &:nth-child(#{$i}) {
+            background: darken(nth($colors, 5), $i * 2%);
+          }
+        }
     }
     a {
       border-bottom: none;
@@ -68,6 +88,9 @@ $m: '.m-box';
   @include m-box-colors(nth($colors, 5), $dark-gray);
   width: 50%;
   float: left;
+  @media (max-width: $mq-singlecol) {
+    width: 100%;
+  }
 }
 #{$m}--half + #{$m}--half {
   @include m-box-colors(nth($colors, 3), $dark-gray);
@@ -98,18 +121,23 @@ $m: '.m-box';
     animation: shiny-fill .7s ease infinite;
   }
   @media (max-width: $mq-singlecol) {
+    padding: .25rem;
     width: 50%;
     float: left;
+    font-size: .75rem;
+    text-align: center;
+    a {
+      padding: 0;
+    }
+    svg {
+        margin: auto;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
     & + #{$m}--social {
-      text-align: left;
-      a {
-        padding-left: 2rem;
-        padding-right: 0;
-      }
-      svg {
-        left: 1.5rem;
-        right: auto;
-      }
+      background: lighten($dark-gray, 10%);
     }
   }
 }
