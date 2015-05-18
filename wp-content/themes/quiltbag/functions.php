@@ -170,8 +170,8 @@ function bones_register_sidebars() {
     'description' => __( 'The 2nd content area on the home page', 'bonestheme' ),
     'before_widget' => '<div id="%1$s" class="widget %2$s">',
     'after_widget' => '</div>',
-    'before_title' => '<h4 class="widgettitle">',
-    'after_title' => '</h4>',
+    'before_title' => '<h2 class="widgettitle">',
+    'after_title' => '</h2>',
   ));
 
 	/*
