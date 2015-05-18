@@ -711,141 +711,141 @@ body {
 }
 .m-header-grid__cell:nth-child(20n - 0) {
   background: #cebe08;
-  -webkit-animation: hor 3s ease infinite alternate;
-          animation: hor 3s ease infinite alternate;
+  -webkit-animation: hor 6s ease infinite alternate;
+          animation: hor 6s ease infinite alternate;
   -webkit-animation-delay: 2.85s;
           animation-delay: 2.85s;
 }
 .m-header-grid__cell:nth-child(20n - 1) {
   background: #d4b50f;
-  -webkit-animation: hor 3s ease infinite alternate;
-          animation: hor 3s ease infinite alternate;
+  -webkit-animation: hor 6s ease infinite alternate;
+          animation: hor 6s ease infinite alternate;
   -webkit-animation-delay: 2.7s;
           animation-delay: 2.7s;
 }
 .m-header-grid__cell:nth-child(20n - 2) {
   background: #d9ab17;
-  -webkit-animation: hor 3s ease infinite alternate;
-          animation: hor 3s ease infinite alternate;
+  -webkit-animation: hor 6s ease infinite alternate;
+          animation: hor 6s ease infinite alternate;
   -webkit-animation-delay: 2.55s;
           animation-delay: 2.55s;
 }
 .m-header-grid__cell:nth-child(20n - 3) {
   background: #dfa31e;
-  -webkit-animation: hor 3s ease infinite alternate;
-          animation: hor 3s ease infinite alternate;
+  -webkit-animation: hor 6s ease infinite alternate;
+          animation: hor 6s ease infinite alternate;
   -webkit-animation-delay: 2.4s;
           animation-delay: 2.4s;
 }
 .m-header-grid__cell:nth-child(20n - 4) {
   background: #dd992d;
-  -webkit-animation: hor 3s ease infinite alternate;
-          animation: hor 3s ease infinite alternate;
+  -webkit-animation: hor 6s ease infinite alternate;
+          animation: hor 6s ease infinite alternate;
   -webkit-animation-delay: 2.25s;
           animation-delay: 2.25s;
 }
 .m-header-grid__cell:nth-child(20n - 5) {
   background: #db923c;
-  -webkit-animation: hor 3s ease infinite alternate;
-          animation: hor 3s ease infinite alternate;
+  -webkit-animation: hor 6s ease infinite alternate;
+          animation: hor 6s ease infinite alternate;
   -webkit-animation-delay: 2.1s;
           animation-delay: 2.1s;
 }
 .m-header-grid__cell:nth-child(20n - 6) {
   background: #d98d4b;
-  -webkit-animation: hor 3s ease infinite alternate;
-          animation: hor 3s ease infinite alternate;
+  -webkit-animation: hor 6s ease infinite alternate;
+          animation: hor 6s ease infinite alternate;
   -webkit-animation-delay: 1.95s;
           animation-delay: 1.95s;
 }
 .m-header-grid__cell:nth-child(20n - 7) {
   background: #d88b59;
-  -webkit-animation: hor 3s ease infinite alternate;
-          animation: hor 3s ease infinite alternate;
+  -webkit-animation: hor 6s ease infinite alternate;
+          animation: hor 6s ease infinite alternate;
   -webkit-animation-delay: 1.8s;
           animation-delay: 1.8s;
 }
 .m-header-grid__cell:nth-child(20n - 8) {
   background: #de8860;
-  -webkit-animation: hor 3s ease infinite alternate;
-          animation: hor 3s ease infinite alternate;
+  -webkit-animation: hor 6s ease infinite alternate;
+          animation: hor 6s ease infinite alternate;
   -webkit-animation-delay: 1.65s;
           animation-delay: 1.65s;
 }
 .m-header-grid__cell:nth-child(20n - 9) {
   background: #e48667;
-  -webkit-animation: hor 3s ease infinite alternate;
-          animation: hor 3s ease infinite alternate;
+  -webkit-animation: hor 6s ease infinite alternate;
+          animation: hor 6s ease infinite alternate;
   -webkit-animation-delay: 1.5s;
           animation-delay: 1.5s;
 }
 .m-header-grid__cell:nth-child(20n - 10) {
   background: #ea856e;
-  -webkit-animation: hor 3s ease infinite alternate;
-          animation: hor 3s ease infinite alternate;
+  -webkit-animation: hor 6s ease infinite alternate;
+          animation: hor 6s ease infinite alternate;
   -webkit-animation-delay: 1.35s;
           animation-delay: 1.35s;
 }
 .m-header-grid__cell:nth-child(20n - 11) {
   background: #ef8376;
-  -webkit-animation: hor 3s ease infinite alternate;
-          animation: hor 3s ease infinite alternate;
+  -webkit-animation: hor 6s ease infinite alternate;
+          animation: hor 6s ease infinite alternate;
   -webkit-animation-delay: 1.2s;
           animation-delay: 1.2s;
 }
 .m-header-grid__cell:nth-child(20n - 12) {
   background: #f5827d;
-  -webkit-animation: hor 3s ease infinite alternate;
-          animation: hor 3s ease infinite alternate;
+  -webkit-animation: hor 6s ease infinite alternate;
+          animation: hor 6s ease infinite alternate;
   -webkit-animation-delay: 1.05s;
           animation-delay: 1.05s;
 }
 .m-header-grid__cell:nth-child(20n - 13) {
   background: #fa8184;
-  -webkit-animation: hor 3s ease infinite alternate;
-          animation: hor 3s ease infinite alternate;
+  -webkit-animation: hor 6s ease infinite alternate;
+          animation: hor 6s ease infinite alternate;
   -webkit-animation-delay: 0.9s;
           animation-delay: 0.9s;
 }
 .m-header-grid__cell:nth-child(20n - 14) {
   background: #ff7e89;
-  -webkit-animation: hor 3s ease infinite alternate;
-          animation: hor 3s ease infinite alternate;
+  -webkit-animation: hor 6s ease infinite alternate;
+          animation: hor 6s ease infinite alternate;
   -webkit-animation-delay: 0.75s;
           animation-delay: 0.75s;
 }
 .m-header-grid__cell:nth-child(20n - 15) {
   background: #ff798c;
-  -webkit-animation: hor 3s ease infinite alternate;
-          animation: hor 3s ease infinite alternate;
+  -webkit-animation: hor 6s ease infinite alternate;
+          animation: hor 6s ease infinite alternate;
   -webkit-animation-delay: 0.6s;
           animation-delay: 0.6s;
 }
 .m-header-grid__cell:nth-child(20n - 16) {
   background: #ff748f;
-  -webkit-animation: hor 3s ease infinite alternate;
-          animation: hor 3s ease infinite alternate;
+  -webkit-animation: hor 6s ease infinite alternate;
+          animation: hor 6s ease infinite alternate;
   -webkit-animation-delay: 0.45s;
           animation-delay: 0.45s;
 }
 .m-header-grid__cell:nth-child(20n - 17) {
   background: #ff6f92;
-  -webkit-animation: hor 3s ease infinite alternate;
-          animation: hor 3s ease infinite alternate;
+  -webkit-animation: hor 6s ease infinite alternate;
+          animation: hor 6s ease infinite alternate;
   -webkit-animation-delay: 0.3s;
           animation-delay: 0.3s;
 }
 .m-header-grid__cell:nth-child(20n - 18) {
   background: #ff6a96;
-  -webkit-animation: hor 3s ease infinite alternate;
-          animation: hor 3s ease infinite alternate;
+  -webkit-animation: hor 6s ease infinite alternate;
+          animation: hor 6s ease infinite alternate;
   -webkit-animation-delay: 0.15s;
           animation-delay: 0.15s;
 }
 .m-header-grid__cell:nth-child(20n - 19) {
   background: #ff659a;
-  -webkit-animation: hor 3s ease infinite alternate;
-          animation: hor 3s ease infinite alternate;
+  -webkit-animation: hor 6s ease infinite alternate;
+          animation: hor 6s ease infinite alternate;
   -webkit-animation-delay: 0s;
           animation-delay: 0s;
 }
@@ -859,8 +859,8 @@ body {
   width: 100%;
   height: 100%;
   opacity: 0;
-  -webkit-animation: diag 1.5s ease infinite alternate;
-          animation: diag 1.5s ease infinite alternate;
+  -webkit-animation: diag 3s ease infinite alternate;
+          animation: diag 3s ease infinite alternate;
   -webkit-animation-delay: 2.85s;
           animation-delay: 2.85s;
 }
@@ -874,8 +874,8 @@ body {
   width: 100%;
   height: 100%;
   opacity: 0;
-  -webkit-animation: diag 1.5s ease infinite alternate;
-          animation: diag 1.5s ease infinite alternate;
+  -webkit-animation: diag 3s ease infinite alternate;
+          animation: diag 3s ease infinite alternate;
   -webkit-animation-delay: 2.7s;
           animation-delay: 2.7s;
 }
@@ -889,8 +889,8 @@ body {
   width: 100%;
   height: 100%;
   opacity: 0;
-  -webkit-animation: diag 1.5s ease infinite alternate;
-          animation: diag 1.5s ease infinite alternate;
+  -webkit-animation: diag 3s ease infinite alternate;
+          animation: diag 3s ease infinite alternate;
   -webkit-animation-delay: 2.55s;
           animation-delay: 2.55s;
 }
@@ -904,8 +904,8 @@ body {
   width: 100%;
   height: 100%;
   opacity: 0;
-  -webkit-animation: diag 1.5s ease infinite alternate;
-          animation: diag 1.5s ease infinite alternate;
+  -webkit-animation: diag 3s ease infinite alternate;
+          animation: diag 3s ease infinite alternate;
   -webkit-animation-delay: 2.4s;
           animation-delay: 2.4s;
 }
@@ -919,8 +919,8 @@ body {
   width: 100%;
   height: 100%;
   opacity: 0;
-  -webkit-animation: diag 1.5s ease infinite alternate;
-          animation: diag 1.5s ease infinite alternate;
+  -webkit-animation: diag 3s ease infinite alternate;
+          animation: diag 3s ease infinite alternate;
   -webkit-animation-delay: 2.25s;
           animation-delay: 2.25s;
 }
@@ -934,8 +934,8 @@ body {
   width: 100%;
   height: 100%;
   opacity: 0;
-  -webkit-animation: diag 1.5s ease infinite alternate;
-          animation: diag 1.5s ease infinite alternate;
+  -webkit-animation: diag 3s ease infinite alternate;
+          animation: diag 3s ease infinite alternate;
   -webkit-animation-delay: 2.1s;
           animation-delay: 2.1s;
 }
@@ -949,8 +949,8 @@ body {
   width: 100%;
   height: 100%;
   opacity: 0;
-  -webkit-animation: diag 1.5s ease infinite alternate;
-          animation: diag 1.5s ease infinite alternate;
+  -webkit-animation: diag 3s ease infinite alternate;
+          animation: diag 3s ease infinite alternate;
   -webkit-animation-delay: 1.95s;
           animation-delay: 1.95s;
 }
@@ -964,8 +964,8 @@ body {
   width: 100%;
   height: 100%;
   opacity: 0;
-  -webkit-animation: diag 1.5s ease infinite alternate;
-          animation: diag 1.5s ease infinite alternate;
+  -webkit-animation: diag 3s ease infinite alternate;
+          animation: diag 3s ease infinite alternate;
   -webkit-animation-delay: 1.8s;
           animation-delay: 1.8s;
 }
@@ -979,8 +979,8 @@ body {
   width: 100%;
   height: 100%;
   opacity: 0;
-  -webkit-animation: diag 1.5s ease infinite alternate;
-          animation: diag 1.5s ease infinite alternate;
+  -webkit-animation: diag 3s ease infinite alternate;
+          animation: diag 3s ease infinite alternate;
   -webkit-animation-delay: 1.65s;
           animation-delay: 1.65s;
 }
@@ -994,8 +994,8 @@ body {
   width: 100%;
   height: 100%;
   opacity: 0;
-  -webkit-animation: diag 1.5s ease infinite alternate;
-          animation: diag 1.5s ease infinite alternate;
+  -webkit-animation: diag 3s ease infinite alternate;
+          animation: diag 3s ease infinite alternate;
   -webkit-animation-delay: 1.5s;
           animation-delay: 1.5s;
 }
@@ -1009,8 +1009,8 @@ body {
   width: 100%;
   height: 100%;
   opacity: 0;
-  -webkit-animation: diag 1.5s ease infinite alternate;
-          animation: diag 1.5s ease infinite alternate;
+  -webkit-animation: diag 3s ease infinite alternate;
+          animation: diag 3s ease infinite alternate;
   -webkit-animation-delay: 1.35s;
           animation-delay: 1.35s;
 }
@@ -1024,8 +1024,8 @@ body {
   width: 100%;
   height: 100%;
   opacity: 0;
-  -webkit-animation: diag 1.5s ease infinite alternate;
-          animation: diag 1.5s ease infinite alternate;
+  -webkit-animation: diag 3s ease infinite alternate;
+          animation: diag 3s ease infinite alternate;
   -webkit-animation-delay: 1.2s;
           animation-delay: 1.2s;
 }
@@ -1039,8 +1039,8 @@ body {
   width: 100%;
   height: 100%;
   opacity: 0;
-  -webkit-animation: diag 1.5s ease infinite alternate;
-          animation: diag 1.5s ease infinite alternate;
+  -webkit-animation: diag 3s ease infinite alternate;
+          animation: diag 3s ease infinite alternate;
   -webkit-animation-delay: 1.05s;
           animation-delay: 1.05s;
 }
@@ -1054,8 +1054,8 @@ body {
   width: 100%;
   height: 100%;
   opacity: 0;
-  -webkit-animation: diag 1.5s ease infinite alternate;
-          animation: diag 1.5s ease infinite alternate;
+  -webkit-animation: diag 3s ease infinite alternate;
+          animation: diag 3s ease infinite alternate;
   -webkit-animation-delay: 0.9s;
           animation-delay: 0.9s;
 }
@@ -1069,8 +1069,8 @@ body {
   width: 100%;
   height: 100%;
   opacity: 0;
-  -webkit-animation: diag 1.5s ease infinite alternate;
-          animation: diag 1.5s ease infinite alternate;
+  -webkit-animation: diag 3s ease infinite alternate;
+          animation: diag 3s ease infinite alternate;
   -webkit-animation-delay: 0.75s;
           animation-delay: 0.75s;
 }
@@ -1084,8 +1084,8 @@ body {
   width: 100%;
   height: 100%;
   opacity: 0;
-  -webkit-animation: diag 1.5s ease infinite alternate;
-          animation: diag 1.5s ease infinite alternate;
+  -webkit-animation: diag 3s ease infinite alternate;
+          animation: diag 3s ease infinite alternate;
   -webkit-animation-delay: 0.6s;
           animation-delay: 0.6s;
 }
@@ -1099,8 +1099,8 @@ body {
   width: 100%;
   height: 100%;
   opacity: 0;
-  -webkit-animation: diag 1.5s ease infinite alternate;
-          animation: diag 1.5s ease infinite alternate;
+  -webkit-animation: diag 3s ease infinite alternate;
+          animation: diag 3s ease infinite alternate;
   -webkit-animation-delay: 0.45s;
           animation-delay: 0.45s;
 }
@@ -1114,8 +1114,8 @@ body {
   width: 100%;
   height: 100%;
   opacity: 0;
-  -webkit-animation: diag 1.5s ease infinite alternate;
-          animation: diag 1.5s ease infinite alternate;
+  -webkit-animation: diag 3s ease infinite alternate;
+          animation: diag 3s ease infinite alternate;
   -webkit-animation-delay: 0.3s;
           animation-delay: 0.3s;
 }
@@ -1129,8 +1129,8 @@ body {
   width: 100%;
   height: 100%;
   opacity: 0;
-  -webkit-animation: diag 1.5s ease infinite alternate;
-          animation: diag 1.5s ease infinite alternate;
+  -webkit-animation: diag 3s ease infinite alternate;
+          animation: diag 3s ease infinite alternate;
   -webkit-animation-delay: 0.15s;
           animation-delay: 0.15s;
 }
@@ -1144,8 +1144,8 @@ body {
   width: 100%;
   height: 100%;
   opacity: 0;
-  -webkit-animation: diag 1.5s ease infinite alternate;
-          animation: diag 1.5s ease infinite alternate;
+  -webkit-animation: diag 3s ease infinite alternate;
+          animation: diag 3s ease infinite alternate;
   -webkit-animation-delay: 0s;
           animation-delay: 0s;
 }

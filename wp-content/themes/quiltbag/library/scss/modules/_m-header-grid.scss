@@ -52,7 +52,7 @@ $m: '.m-header-grid';
   @for $i from 1 through 20 {
     &:nth-child(20n - #{$i - 1}) {
       background: lighten(rgba(150 + 7 * $i, 150 - 5 * $i, 6 * $i, 1), 10%);
-      animation: hor 3s ease infinite alternate;
+      animation: hor 6s ease infinite alternate;
       animation-delay: 3s - (.15s * $i);
     }
   }
@@ -68,7 +68,7 @@ $m: '.m-header-grid';
         width: 100%;
         height: 100%;
         opacity: 0;
-        animation: diag 1.5s ease infinite alternate;
+        animation: diag 3s ease infinite alternate;
         animation-delay: 3s - (.15s * $i);
     }
     }
