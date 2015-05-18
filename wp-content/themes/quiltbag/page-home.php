@@ -74,7 +74,7 @@
            </section>
            <section class="l-rail">
              <div class="m-box" --xs>
-              <p>this group is based in <span class="emphasis">NYC</span></p>
+              <p><span class="emphasis">NYC Queer Tech</span></p>
              </div>
              <!--
             <div class="m-box m-box - - nav"> //fix dashes if you uncomment
