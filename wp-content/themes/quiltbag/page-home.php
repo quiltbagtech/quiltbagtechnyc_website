@@ -48,28 +48,41 @@
                   @quiltbagtech
                 </a>
               </div>
+              <?php /* WIDGET: Content Area 2 */ ?>
               <div class="m-box m-box--titled">
                 <!--
                 <h2>About</h2>
                 <p>The acronym ‘QUILTBAG’ is like ‘LGBT’, but includes several words not listed there, like queer, intersex, and asexual. What about the ++? In some programming languages, using two plus signs is a shortcut for adding 1 to a number. We are using it here because even an acronym as robust as QUILTBAG will invariably leave out some identities, and we want to make clear that our terminology, like our inclusiveness, is not finite, but growing and changing. We are using ++ to signal our interest in making space for queer, trans, and ++ people in tech.</p>
                 -->
                 <?php if ( is_active_sidebar( 'contentarea2' ) ) : ?>
-
                   <?php dynamic_sidebar( 'contentarea2' ); ?>
-
                 <?php else : ?>
-
                   <div class="no-widgets">
                     <p><?php _e( 'This is a widget ready area. Add some and they will appear here.', 'bonestheme' );  ?></p>
                   </div>
-
                 <?php endif; ?>
               </div>
+
+              <?php /* WIDGET: Small Content Box 1 */ ?>
               <div class="m-box m-box--half">
-                The acronym ‘QUILTBAG’ is like ‘LGBT’, but includes several words not listed there, like queer, intersex, and asexual. What about the ++?
+                <?php if ( is_active_sidebar( 'smallbox1' ) ) : ?>
+                  <?php dynamic_sidebar( 'smallbox1' ); ?>
+                <?php else : ?>
+                  <div class="no-widgets">
+                    <p><?php _e( 'Hi! Widget content here', 'bonestheme' );  ?></p>
+                  </div>
+                <?php endif; ?>
               </div>
+
+              <?php /* WIDGET: Small Content Box 2 */ ?>
               <div class="m-box m-box--half">
-                The acronym ‘QUILTBAG’ is like ‘LGBT’, but includes several words not listed there, like queer, intersex, and asexual. What about the ++?
+                <?php if ( is_active_sidebar( 'smallbox2' ) ) : ?>
+                  <?php dynamic_sidebar( 'smallbox2' ); ?>
+                <?php else : ?>
+                  <div class="no-widgets">
+                    <p><?php _e( 'Hello! Widget content here', 'bonestheme' );  ?></p>
+                  </div>
+                <?php endif; ?>
               </div>
            </section>
            <section class="l-rail">
