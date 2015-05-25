@@ -527,8 +527,9 @@ article a {
 article a:hover {
   border-bottom: 1px solid #F58791;
 }
-article h4 {
+article h3 {
   color: #ca446a;
+  font-size: 1.5rem;
 }
 
 body {
