@@ -516,18 +516,18 @@ p {
   margin-after: 0;
 }
 
-article ul {
+body.page-template-default article ul {
   color: white;
   font-size: 1.5rem;
   list-style-type: disc;
 }
-article a {
+body.page-template-default article a {
   color: #F58791;
 }
-article a:hover {
+body.page-template-default article a:hover {
   border-bottom: 1px solid #F58791;
 }
-article h3 {
+body.page-template-default article h3 {
   color: #ca446a;
   font-size: 1.5rem;
 }
