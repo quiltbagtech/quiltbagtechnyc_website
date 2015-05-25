@@ -16,6 +16,10 @@ If you don't, [download node here](https://nodejs.org/); npm will come with it.
 Next: install Grunt!
 `npm install -g grunt-cli`
 
+Test that Ruby is installed by typing `ruby -v` in your terminal. 
+
+When you've confirmed you have Ruby installed, run `gem install sass` to install Sass. (from https://github.com/gruntjs/grunt-contrib-sass)
+
 For the rest of the steps, make sure that your shell is in the quiltbag _theme_ folder -- `wp-content/themes/quiltbag` -- , as that is where the Gruntfile.js and package.json files live.
 
 You'll want to install the project dependencies (aka the node packages which are listed in the `package.json` file) by running
