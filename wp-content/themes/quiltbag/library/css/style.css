@@ -527,6 +527,9 @@ article a {
 article a:hover {
   border-bottom: 1px solid #F58791;
 }
+article h4 {
+  color: #ca446a;
+}
 
 body {
   font-family: "raleway";
