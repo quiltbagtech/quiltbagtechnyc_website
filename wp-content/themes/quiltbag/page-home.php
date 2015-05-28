@@ -14,10 +14,9 @@
           </div>
           <section class="l-main">
               <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-
+                <div class="m-box">
                   <?php the_content(); ?>
-
-
+                </div>
               <?php endwhile; else : ?>
                   <article id="post-not-found" class="hentry cf">
                       <header class="article-header">
