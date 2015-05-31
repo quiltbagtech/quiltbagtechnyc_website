@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* foundation override */
+table tr.even, table tr.alt, table tr:nth-of-type(even) {
+	background: inherit;
+}
+
+/* rsvp form styles */
+
+div.rsvp-form{
+	font-size:14px;
+	top: 25px;
+}
+
+.rsvp-me-form-wrapper{
+	background: white;
+	padding: 35px;
+}
+
+#rsvpEventTitle{
+	font-weight: bold;
+}
+
+#rsvpMultiTabHeader{
+	padding-bottom: 0px;
+	clear:both;
+}
+
+div.rsvp-form ul{
+	margin: 0px;
+	margin-top: 10px;
+	padding-bottom: 35px;
+}
+
+.rsvp-line-break{
+	border-bottom: 3px solid #333;
+}
+
+div.rsvp-form ul li{
+	float:left;
+	cursor:pointer;
+	margin-right: 25px;
+	list-style:none;
+}
+
+div.overlay-content{
+	padding: 50px;
+}
+
+div.rsvp-form h1{ font-size: 20px; }
+div.rsvp-form h2{ font-size: 18px; }
+div.rsvp-form h3{ font-size: 16px; }
+div.rsvp-form h4{ font-size: 15px; }
+
+
+div.rsvp-form input, textarea{
+	padding:5px;
+	color:#666666;
+	font-weight:500;
+}
+
+/* Admin styles */
+
+div.form-segments{
+	margin-bottom:25px;
+	display:block;	
+	width: 450px;
+	padding-bottom:20px;	
+	border-bottom: 1px solid #CCC;
+}
+
+#admin-events-wrapper{
+	
+}
+
+#admin-events-wrapper table{
+	
+}
+
+#admin-events-wrapper table tr{
+
+}
+
+#admin-events-wrapper table tr th{
+	text-align:left;
+	padding:10px;
+}
+
+#admin-events-wrapper table tr td{
+	text-align:left;
+	padding:10px;
+}
+
+#admin-events-wrapper table tr.event_rsvps{
+	background: white;
+}
+
+
+.rsvp-me-event{
+	float:left;
+	margin-right: 15px;
+	background: #f2f2f2;
+	width: 275px;
+	font-size: .75em;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+.rsvp-me-event:last-child{
+	margin-right: 0px;
+}
+
+
+.rsvp-me-event-meta,
+.rsvp-me-entry-header{
+	float:left;
+	padding-right: 15px;
+	box-sizing: border-box;
+	width: 50%;
+}
+
+.rsvp-me-event-form{
+	float:left;
+	width: 50%;
+	box-sizing: border-box;
+}
+
+.rsvp-me-event-form input[type="text"],
+.rsvp-me-event-form textarea{
+	width: 100%;
+}
+
+/** Default alert messages */
+.rsvp_me_alert{
+	display: none;
+}
+
+.rsvp-me-alert-box{
+	display:block;
+	width: 100%;
+	padding: 10px;
+}
+
+.success{
+	background-color: #5da423;
+}
+
+.error, .alert{
+	background-color: #c60f13;
+}
+
+.rsvp-me-form-wrapper{
+	max-width: 750px;
+}
+
+
+/* Default widget styles */
+#rsvp_me_event_calendar table{
+	width: 100%;
+}
+
+#rsvp_calendar_head{
+	padding: 10px 0;
+}
+
+#rsvp_me_event_calendar table tr td.event-day{
+	cursor: pointer;
+}
