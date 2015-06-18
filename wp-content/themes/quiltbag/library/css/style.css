@@ -532,17 +532,17 @@ body.page-template-default article h3 {
   font-size: 1.5rem;
 }
 
-.rsvp-event-meta, .rsvp-event-form {
+.rsvp-me-event-meta, .rsvp-me-event-form {
   color: #E6E6E6;
 }
 
-.rsvp-event-meta h3, .rsvp-event-form h3 {
+.rsvp-me-event-meta h3, .rsvp-me-event-form h3 {
   font-size: 1.5em;
 }
-.rsvp-event-meta a, .rsvp-event-form a {
+.rsvp-me-event-meta a, .rsvp-me-event-form a {
   color: #F58791;
 }
-.rsvp-event-meta a:hover, .rsvp-event-form a:hover {
+.rsvp-me-event-meta a:hover, .rsvp-me-event-form a:hover {
   border-bottom: 1px solid #F58791;
 }
 
