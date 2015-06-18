@@ -303,7 +303,7 @@ function rsvp_me_event_page($content){
 	global $post;
 	global $foomanchu;
 
-	if($post->post_type != "event" || !is_single($post) ) return $content;
+	if($post->post_type != "event" || !is_single($post) || post_password_required() ) return $content;
 
 	$fields = array(
 		'venue_name' => '', 
@@ -336,8 +336,11 @@ function rsvp_me_event_page($content){
 	if($event['decline_response'] != "") $event['showDeclineResponse'] = true;
 
 	//$content = buildTemplateFromValues(RSVP_ME_FILE_PATH . "/themes/default/event.html", $rsvp_me, false);
-	$template = file_get_contents(RSVP_ME_FILE_PATH . "/themes/default/event.fmc");
-	$content = $foomanchu->render($template, $event, false);
+	// don't show if this is a password protected post
+	//if ( ! post_password_required() ) {
+		$template = file_get_contents(RSVP_ME_FILE_PATH . "/themes/default/event.fmc");
+		$content = $foomanchu->render($template, $event, false);
+	//}
 
 	return $content;
 }
