@@ -532,6 +532,20 @@ body.page-template-default article h3 {
   font-size: 1.5rem;
 }
 
+.rsvp-event-meta, .rsvp-event-form {
+  color: #E6E6E6;
+}
+
+.rsvp-event-meta h3, .rsvp-event-form h3 {
+  font-size: 1.5em;
+}
+.rsvp-event-meta a, .rsvp-event-form a {
+  color: #F58791;
+}
+.rsvp-event-meta a:hover, .rsvp-event-form a:hover {
+  border-bottom: 1px solid #F58791;
+}
+
 body {
   font-family: "raleway";
 }
