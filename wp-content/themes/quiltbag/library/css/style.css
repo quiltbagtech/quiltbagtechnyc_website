@@ -539,7 +539,7 @@ body.page-template-default article h3 {
 .rsvp-me-event-meta h3, .rsvp-me-event-form h3 {
   font-size: 1.5em;
 }
-.rsvp-me-event-meta a, .rsvp-me-event-form a {
+.rsvp-me-event-meta a:link, .rsvp-me-event-form a:link {
   color: #F58791;
 }
 .rsvp-me-event-meta a:hover, .rsvp-me-event-form a:hover {
